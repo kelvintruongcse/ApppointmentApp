@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1069657061380",
+    "project_id": "appointmentapp-cc3a1",
+    "storage_bucket": "appointmentapp-cc3a1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1069657061380:android:8f9311b47d174f42279d51",
+        "android_client_info": {
+          "package_name": "kelvintruongcse.github.apppointmentapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBthbIpVG8SsRHUOtySXmXE3S1rNmtcpTo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

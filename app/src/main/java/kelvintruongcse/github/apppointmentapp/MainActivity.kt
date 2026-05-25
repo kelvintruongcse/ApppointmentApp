@@ -12,6 +12,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import kelvintruongcse.github.apppointmentapp.ui.theme.ApppointmentAppTheme
+import kelvintruongcse.github.apppointmentapp.ui.theme.SpashScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -42,6 +43,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     ApppointmentAppTheme {
-        Greeting("Android")
+        SpashScreen()
     }
 }
