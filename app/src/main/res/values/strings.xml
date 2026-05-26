@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">ApppointmentApp</string>
+    <string name="title_splash_screen">Consult only with a Doctor you trust</string>
+    <string name="des_splash_screen">We can help ypu to find available doctor appointment near you</string>
+    <string name="get_started_splash_screen">Get Started</string>
 </resources>
