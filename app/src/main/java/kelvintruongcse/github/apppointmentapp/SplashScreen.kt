@@ -1,4 +1,4 @@
-package kelvintruongcse.github.apppointmentapp.ui.theme
+package kelvintruongcse.github.apppointmentapp
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -27,11 +27,9 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import kelvintruongcse.github.apppointmentapp.R
 
 
 @Composable
-@Preview
 fun SplashScreen(onStartClick: () -> Unit) {
     Box(
         modifier = Modifier
@@ -119,4 +117,10 @@ fun SplashScreen(onStartClick: () -> Unit) {
         }
 
     }
+}
+
+@Preview(showBackground = true)
+@Composable
+fun SplashScreenPreview() {
+    SplashScreen(onStartClick = {})
 }
